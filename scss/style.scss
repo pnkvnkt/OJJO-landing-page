@@ -12,7 +12,7 @@
 
 .background-img {
     background-color: #474747;
-    background-image: url(/background-img.png);
+    background-image: url(../background-img.png);
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -48,7 +48,7 @@
 
 .wrapper__black-background {
     background-color: #121212;
-    background-image: url(/img/salons_background-img.png);
+    background-image: url(../img/salons_background-img.png);
 }
 
 /* ===== HEADER ===== */
@@ -59,7 +59,6 @@ header {
     a {
         color: white;
         font-family: 'Gilroy', sans-serif;
-        font-family: Gilroy;
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
@@ -291,28 +290,28 @@ header {
         }
         &:nth-child(1) {
             background-color: #474747;
-            background-image: url(/img/catalog_background-img__1.png);
+            background-image: url(../img/catalog_background-img__1.png);
         }
         &:nth-child(2) {
             background-color: #474747;
-            background-image: url(/img/catalog_background-img__2.png);
+            background-image: url(../img/catalog_background-img__2.png);
         }
         &:nth-child(3) {
             background-color: #474747;
-            background-image: url(/img/catalog_background-img__3.png);
+            background-image: url(../img/catalog_background-img__3.png);
             margin-right: 0;
         }
         &:nth-child(4) {
             background-color: #474747;
-            background-image: url(/img/catalog_background-img__4.png);
+            background-image: url(../img/catalog_background-img__4.png);
         }
         &:nth-child(5) {
             background-color: #474747;
-            background-image: url(/img/catalog_background-img__5.png);
+            background-image: url(../img/catalog_background-img__5.png);
         }
         &:nth-child(6) {
             background-color: #474747;
-            background-image: url(/img/catalog_background-img__6.png);
+            background-image: url(../img/catalog_background-img__6.png);
             margin-right: 0;
         }
     }
@@ -396,15 +395,15 @@ header {
 
             &:nth-child(1) {
                 background-color: #7f7f7f;
-                background-image: url(/img/articles_background-img__1.png);
+                background-image: url(../img/articles_background-img__1.png);
             }
             &:nth-child(2) {
                 background-color: #7f7f7f;
-                background-image: url(/img/articles_background-img__2.png);
+                background-image: url(../img/articles_background-img__2.png);
             }
             &:nth-child(3) {
                 background-color: #7f7f7f;
-                background-image: url(/img/articles_background-img__3.png);
+                background-image: url(../img/articles_background-img__3.png);
                 margin-right: 0;
             }
         }

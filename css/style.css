@@ -13,7 +13,7 @@
 
 .background-img {
   background-color: #474747;
-  background-image: url(/background-img.png);
+  background-image: url(../background-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -48,7 +48,7 @@
 
 .wrapper__black-background {
   background-color: #121212;
-  background-image: url(/img/salons_background-img.png);
+  background-image: url(../img/salons_background-img.png);
 }
 
 /* ===== HEADER ===== */
@@ -58,7 +58,6 @@ header {
 header a {
   color: white;
   font-family: "Gilroy", sans-serif;
-  font-family: Gilroy;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -294,28 +293,28 @@ header a {
 }
 .catalog_products .products_item:nth-child(1) {
   background-color: #474747;
-  background-image: url(/img/catalog_background-img__1.png);
+  background-image: url(../img/catalog_background-img__1.png);
 }
 .catalog_products .products_item:nth-child(2) {
   background-color: #474747;
-  background-image: url(/img/catalog_background-img__2.png);
+  background-image: url(../img/catalog_background-img__2.png);
 }
 .catalog_products .products_item:nth-child(3) {
   background-color: #474747;
-  background-image: url(/img/catalog_background-img__3.png);
+  background-image: url(../img/catalog_background-img__3.png);
   margin-right: 0;
 }
 .catalog_products .products_item:nth-child(4) {
   background-color: #474747;
-  background-image: url(/img/catalog_background-img__4.png);
+  background-image: url(../img/catalog_background-img__4.png);
 }
 .catalog_products .products_item:nth-child(5) {
   background-color: #474747;
-  background-image: url(/img/catalog_background-img__5.png);
+  background-image: url(../img/catalog_background-img__5.png);
 }
 .catalog_products .products_item:nth-child(6) {
   background-color: #474747;
-  background-image: url(/img/catalog_background-img__6.png);
+  background-image: url(../img/catalog_background-img__6.png);
   margin-right: 0;
 }
 
@@ -391,15 +390,15 @@ header a {
 }
 .articles .articles_list > *:nth-child(1) {
   background-color: #7f7f7f;
-  background-image: url(/img/articles_background-img__1.png);
+  background-image: url(../img/articles_background-img__1.png);
 }
 .articles .articles_list > *:nth-child(2) {
   background-color: #7f7f7f;
-  background-image: url(/img/articles_background-img__2.png);
+  background-image: url(../img/articles_background-img__2.png);
 }
 .articles .articles_list > *:nth-child(3) {
   background-color: #7f7f7f;
-  background-image: url(/img/articles_background-img__3.png);
+  background-image: url(../img/articles_background-img__3.png);
   margin-right: 0;
 }
 
