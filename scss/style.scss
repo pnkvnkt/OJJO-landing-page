@@ -62,7 +62,13 @@ header {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
+        opacity: 0.6;
+        transition: .2s linear;
 
+        &:hover {
+            text-decoration: underline;
+            opacity: 1;
+        }
     }
 }
 
@@ -158,6 +164,11 @@ header {
         line-height: 120%;
         color: white;
         text-transform: uppercase;
+
+        transition: .2s linear;
+        &:hover {
+            background-color: #2c2c2c;
+        }
     }
 }
 
@@ -221,6 +232,15 @@ header {
             border: 1px solid #D6D6D6;
             z-index: -1;
         }
+
+        transition: border .2s linear;
+        &:hover {
+            border: 1px solid #7f7f7f
+        }
+        &:hover:after {
+            border: 1px solid #7f7f7f
+        }
+
         span {
             color: #333333;
             font-family: 'Gilroy';
@@ -237,7 +257,7 @@ header {
         span {
             color: white;
         }
-        &::after {
+        &::after, &:hover:after {
             border: none;
         }
     }
@@ -262,20 +282,6 @@ header {
         width: 350px;
         margin-top: 30px;
         position: relative;
-        span {
-            position: absolute;
-            bottom: 30px;
-            left: 0;
-            right: 0;
-            margin: auto;
-
-            font-family: 'Gilroy';
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 120%;
-            text-transform: uppercase;
-            color: #FFFFFF;
-        }
         &:nth-child(1) {
             background-color: #474747;
             background-image: url(../img/catalog_background-img__1.png);
@@ -301,6 +307,26 @@ header {
             background-color: #474747;
             background-image: url(../img/catalog_background-img__6.png);
             margin-right: 0;
+        }
+
+        span {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+            font-family: 'Gilroy';
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 120%;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        transition: 0.2s linear;
+        &:hover {
+            border: 1px solid #333333;
         }
     }
 }
@@ -350,7 +376,12 @@ header {
         line-height: 21px;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        background-color: #333333;
+        background-color: #1e1e1e;
+        
+        transition: .2s linear;
+        &:hover {
+            background-color: #2c2c2c;
+        }
     }
 
     .articles_list {
@@ -493,6 +524,11 @@ header {
             text-transform: uppercase;
             letter-spacing: 0.1em;
             background-color: #333333;
+                        
+            transition: .2s linear;
+            &:hover {
+                background-color: #2c2c2c;
+            }
         }
     
     }
@@ -503,6 +539,16 @@ header {
 footer {
     margin-top: 80px;
     margin-bottom: 20px;
+
+    a {
+        opacity: 0.8;
+        transition: .2s linear;
+
+        &:hover {
+            text-decoration: underline;
+            opacity: 1;
+        }
+    }
 }
 
 .wrapper__footer {

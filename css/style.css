@@ -61,6 +61,13 @@ header a {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+  opacity: 0.6;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+header a:hover {
+  text-decoration: underline;
+  opacity: 1;
 }
 
 .wrapper__header {
@@ -155,6 +162,11 @@ header a {
   line-height: 120%;
   color: white;
   text-transform: uppercase;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.intro_title button:hover {
+  background-color: #2c2c2c;
 }
 
 .intro-line {
@@ -210,6 +222,8 @@ header a {
   margin-right: 24px;
   position: relative;
   background-color: #fff;
+  -webkit-transition: border 0.2s linear;
+  transition: border 0.2s linear;
 }
 .catalog_menu .menu_item:last-child {
   margin-right: 0;
@@ -223,6 +237,12 @@ header a {
   top: 6px;
   border: 1px solid #D6D6D6;
   z-index: -1;
+}
+.catalog_menu .menu_item:hover {
+  border: 1px solid #7f7f7f;
+}
+.catalog_menu .menu_item:hover:after {
+  border: 1px solid #7f7f7f;
 }
 .catalog_menu .menu_item span {
   color: #333333;
@@ -240,7 +260,7 @@ header a {
 .catalog_menu .menu_item__active span {
   color: white;
 }
-.catalog_menu .menu_item__active::after {
+.catalog_menu .menu_item__active::after, .catalog_menu .menu_item__active:hover:after {
   border: none;
 }
 
@@ -265,19 +285,8 @@ header a {
   width: 350px;
   margin-top: 30px;
   position: relative;
-}
-.catalog_products .products_item span {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  font-family: "Gilroy";
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: #FFFFFF;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 .catalog_products .products_item:nth-child(1) {
   background-color: #474747;
@@ -304,6 +313,22 @@ header a {
   background-color: #474747;
   background-image: url(../img/catalog_background-img__6.png);
   margin-right: 0;
+}
+.catalog_products .products_item span {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.catalog_products .products_item:hover {
+  border: 1px solid #333333;
 }
 
 /* === SALONS === */
@@ -347,7 +372,12 @@ header a {
   line-height: 21px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background-color: #333333;
+  background-color: #1e1e1e;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.articles button:hover {
+  background-color: #2c2c2c;
 }
 .articles .articles_list {
   display: -webkit-box;
@@ -490,12 +520,26 @@ header a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   background-color: #333333;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.mailing .input-form_wrapper button:hover {
+  background-color: #2c2c2c;
 }
 
 /* ===== FOOTER ===== */
 footer {
   margin-top: 80px;
   margin-bottom: 20px;
+}
+footer a {
+  opacity: 0.8;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+footer a:hover {
+  text-decoration: underline;
+  opacity: 1;
 }
 
 .wrapper__footer {
