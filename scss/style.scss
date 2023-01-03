@@ -500,5 +500,80 @@ header {
 
 /* ===== FOOTER ===== */
 
+footer {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.wrapper__footer {
+    flex-direction: column;
+}
+
+.footer-line {
+    width: 100%;
+    background-color: #333333;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.footer_first-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+        margin-right: 30px;
+
+        h5 {
+            font-family: 'Gilroy';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        
+        a, p {
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #333333;
+            margin-bottom: 15px;
+        }
+    }
+
+    img {
+        margin-right: 20px;
+    }
+
+    .footer_payments {
+        display: flex;
+    }
+
+    .footer_contacts {
+        margin-bottom: 20px;
+    }
+}
+
+.footer_second-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .footer_underline {
+        text-decoration: underline;
+    }
+    a, span {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #333333;
+        margin-bottom: 15px;
+    }
+}
+
 
 
